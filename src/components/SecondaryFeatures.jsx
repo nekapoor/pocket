@@ -4,40 +4,22 @@ import { Container } from '@/components/Container'
 
 const features = [
   {
-    name: 'Invest any amount',
+    name: 'Testing and treatment',
     description:
-      'Whether it’s $1 or $1,000,000, we can put your money to work for you.',
+      'We help you get a result and get COVID-19 treatment immediately. Nationwide coverage and most insurances included.',
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Build a balanced portfolio',
+    name: 'Peace of mind',
     description:
-      'Invest in different industries to find the most opportunities to win huge.',
+      'If there is even the slighest chance of misreading the test, this is the test for you. ',
     icon: DeviceCardsIcon,
   },
   {
-    name: 'Trade in real-time',
+    name: 'Easy sharing',
     description:
-      'Get insider tips on big stock moves and act on them within seconds.',
+      'Results are saved for easy lookup and sharing.',
     icon: DeviceClockIcon,
-  },
-  {
-    name: 'Profit from your network',
-    description:
-      'Invite new insiders to get tips faster and beat even other Pocket users.',
-    icon: DeviceListIcon,
-  },
-  {
-    name: 'Encrypted and anonymized',
-    description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
-    icon: DeviceLockIcon,
-  },
-  {
-    name: 'Portfolio tracking',
-    description:
-      'Watch your investments grow exponentially, leaving other investors in the dust.',
-    icon: DeviceChartIcon,
   },
 ]
 
@@ -196,11 +178,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to build your portfolio.
+            Why this test over others?
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Pocket, it’s never too late to build your nest egg.
+            The world came together to put COVID-19 tests into the market at lightning speed. And we're grateful for all of them. We think our test is just a little bit better. Here's why:
           </p>
         </div>
         <ul

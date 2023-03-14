@@ -5,53 +5,24 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'Do I really need an app for a COVID-19 test?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        "No, you definitely do not! And we get it. Detecting lines with the human eye isn't rocket science! But our app does offer some unique features. First, you can leave it to us to interpret your results. This helps, especially in those cases where you get a faint line and are unable to figure out if a line is there or not. Or where you might think there's a chance of misinterpretation. But more importantly, we will immediately allow you to get treatment after a result, should you need it.",
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'What does "test and treat" mean?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+        'If you test positive, we will connect you with a telehealth partner who can provide you with treatment like Paxlovid. ',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'Why does your app have 3 lines when every other test I have done has 2?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
+        'Other tests have no way of determining whether you have swabbed the inside of your nose enough to get a good sample. Our test has a third line to help you determine if you have swabbed enough. We call it a sample adeqacy line and helps us to better ensure we are providing the right result.',
     },
     {
-      question: 'Where is Pocket based?',
+      question: 'Can this app be used for any other tests?',
       answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
-    },
-  ],
-  [
-    {
-      question: 'How did you get this on the App Store?',
-      answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
-    },
-    {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
-      answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
-    },
-    {
-      question: 'How do I become an insider?',
-      answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Right now, no! But if the pandemic has taught us anything, it is that at-home care will continue to be a big part of our future. We are working on expanding our app to include other tests and treatments.',
     },
   ],
 ]
@@ -84,7 +55,7 @@ export function Faqs() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-1"
         >
           {faqs.map((column, columnIndex) => (
             <li key={columnIndex}>
